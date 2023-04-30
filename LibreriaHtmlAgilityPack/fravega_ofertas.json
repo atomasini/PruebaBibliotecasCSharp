@@ -1,0 +1,80 @@
+{
+                  "__typename":"Module",
+                  "pieces":[
+
+ {
+                        "__typename":"Product",
+                        "brand":{
+                           "__typename":"Brand",
+                           "id":"5a301bdb14000063004905f8",
+                           "name":"LG"
+                        },
+                        "title":"Smart TV 4K 55\" LG 55UP7750PSB",
+                        "slug":"smart-tv-4k-55-lg-55up7750psb",
+                        "code":"502186",
+                        "image":"f0ef28b9dea1d9f1e07ce69215c29bdf.jpg",
+                        "categorization":[
+                           [
+                              {
+                                 "__typename":"Category",
+                                 "id":"5a301bf31400008700491388",
+                                 "name":"TV"
+                              },
+                              {
+                                 "__typename":"Category",
+                                 "id":"5a301bf31400008a00491383",
+                                 "name":"TV y Video"
+                              }
+                           ]
+                        ],
+                        "cockades":[
+                           {
+                              "__typename":"Cockade",
+                              "image":"172cf8915c9da3e4837a60596fe5cdf5.png",
+                              "position":"BottomRightCorner"
+                           },
+                           {
+                              "__typename":"Cockade",
+                              "image":"2a5213e9ac303189b6ebed9dda6f08ae.png",
+                              "position":"TopLeftCorner"
+                           },
+                           {
+                              "__typename":"Cockade",
+                              "image":"4663af5ee0bdf3d70f356c10261b5e7e.png",
+                              "position":"BottomLeftCorner"
+                           }
+                        ],
+                        "pricing":{
+                           "__typename":"Pricing",
+                           "listPrice":215999,
+                           "salePrice":189999,
+                           "discount":12
+                        },
+                        "stock":{
+                           "__typename":"StockAvailability",
+                           "labels":[
+                              "FREE_HOME_DELIVERY_IN_24_HOURS",
+                              "IMMEDIATE_PICKUP"
+                           ]
+                        },
+                        "seller":{
+                           "__typename":"Seller",
+                           "commercialName":"Fravega"
+                        }
+                     },
+					 
+				],
+                  "id":"de597c30-9285-48ce-a0d1-6ed884cc6ba3",
+                  "tag":"vitrina_1",
+                  "anchor":null,
+                  "expiresAt":null,
+                  "title":"OFERTAS POR TIEMPO LIMITADO",
+                  "titleColor":null,
+                  "titleBackgroundColor":null,
+                  "backgroundColor":null,
+                  "link":null,
+                  "contentType":{
+                     "__typename":"OffersShowCase",
+                     "expirationDate":null
+                  }
+}

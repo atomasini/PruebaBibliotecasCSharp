@@ -1,0 +1,17 @@
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\web3\Pruebas\LibreriaHtmlAgilityPack\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
