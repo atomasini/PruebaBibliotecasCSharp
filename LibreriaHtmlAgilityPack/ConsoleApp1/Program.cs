@@ -34,7 +34,7 @@ namespace WebScraper
             // Imprime el contenido de cada nodo encontrado
             foreach (var nodo in nodosOfertas)
             {
-                nodosOfertas.ToCsv()
+                nodosOfertas.ToC
                 Console.WriteLine(nodo.InnerHtml);
             }
            
