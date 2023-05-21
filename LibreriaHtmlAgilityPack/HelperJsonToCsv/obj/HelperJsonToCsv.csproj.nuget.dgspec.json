@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
+        "projectName": "HelperJsonToCsv",
+        "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
         "packagesPath": "C:\\Users\\sullc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sullc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,20 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "HtmlAgilityPack": {
-              "target": "Package",
-              "version": "[1.11.46, )"
-            },
-            "Microsoft.ML": {
-              "target": "Package",
-              "version": "[2.0.1, )"
-            },
-            "Microsoft.ML.FastTree": {
-              "target": "Package",
-              "version": "[1.7.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
