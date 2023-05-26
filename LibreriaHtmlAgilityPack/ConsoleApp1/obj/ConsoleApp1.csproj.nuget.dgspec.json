@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\sullc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\54116\\.nuget\\packages\\",
+        "outputPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sullc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\54116\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

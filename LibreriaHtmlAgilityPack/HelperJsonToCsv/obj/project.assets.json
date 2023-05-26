@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sullc\\.nuget\\packages\\": {}
+    "C:\\Users\\54116\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
+      "projectUniqueName": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
       "projectName": "HelperJsonToCsv",
-      "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
-      "packagesPath": "C:\\Users\\sullc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\obj\\",
+      "projectPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
+      "packagesPath": "C:\\Users\\54116\\.nuget\\packages\\",
+      "outputPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sullc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\54116\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

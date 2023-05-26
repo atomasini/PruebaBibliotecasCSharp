@@ -9,6 +9,8 @@ MLContext mlContext = new MLContext();
 
 //STEP 2: Read the trained data using TextLoader by defining the schema for reading the product co-purchase dataset
 //        Do remember to replace amazon0302.txt with dataset from https://snap.stanford.edu/data/amazon0302.html
+// Especifica la ubicación real de tus datos de entrenamiento 
+string TrainingDataLocation = "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\Data\\Amazon0302.txt";
 var traindata = mlContext.Data.LoadFromTextFile(path: TrainingDataLocation,
                                                   columns: new[]
                                                   {
@@ -40,6 +42,16 @@ var est = mlContext.Recommendation().Trainers.MatrixFactorization(options);
 //Please add Amazon0302.txt dataset from https://snap.stanford.edu/data/amazon0302.html to Data folder if FileNotFoundException is thrown.
 ITransformer model = est.Fit(traindata);
 
+//STEP 6: Create prediction engine and predict the score for Product 63 being co-purchased with Product 3.
+//The higher the score the higher the probability for this particular productID being co-purchased
+var predictionengine = mlContext.Model.CreatePredictionEngine<ProductEntry, Copurchase_prediction>(model);
+var prediction = predictionengine.Predict(
+                         new ProductEntry()
+                         {
+                             ProductID = 3,
+                             CoPurchaseProductID = 63
+                         });
+
 public class Copurchase_prediction
 {
     public float Score { get; set; }
@@ -54,12 +66,4 @@ public class ProductEntry
     public uint CoPurchaseProductID { get; set; }
 }
 
-//STEP 6: Create prediction engine and predict the score for Product 63 being co-purchased with Product 3.
-//        The higher the score the higher the probability for this particular productID being co-purchased
-var predictionengine = mlContext.Model.CreatePredictionEngine<ProductEntry, Copurchase_prediction>(model);
-var prediction = predictionengine.Predict(
-                                             new ProductEntry()
-                                             {
-                                                 ProductID = 3,
-                                                 CoPurchaseProductID = 63
-                                             });
+
