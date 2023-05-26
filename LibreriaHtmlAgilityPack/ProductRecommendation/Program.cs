@@ -10,7 +10,7 @@ MLContext mlContext = new MLContext();
 //STEP 2: Read the trained data using TextLoader by defining the schema for reading the product co-purchase dataset
 //        Do remember to replace amazon0302.txt with dataset from https://snap.stanford.edu/data/amazon0302.html
 // Especifica la ubicación real de tus datos de entrenamiento 
-string TrainingDataLocation = "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\Data\\Amazon0302.txt";
+string TrainingDataLocation = "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ProductRecommendation\\Data\\Amazon0302.txt";
 var traindata = mlContext.Data.LoadFromTextFile(path: TrainingDataLocation,
                                                   columns: new[]
                                                   {
@@ -49,8 +49,31 @@ var prediction = predictionengine.Predict(
                          new ProductEntry()
                          {
                              ProductID = 3,
-                             CoPurchaseProductID = 63
+                             CoPurchaseProductID = 67
                          });
+
+Console.WriteLine("\n For ProductID = 3 and  CoPurchaseProductID = 63 the predicted score is " + Math.Round(prediction.Score, 1)*100+"%");
+
+
+
+
+// find the top 5 combined products for product 6
+Console.WriteLine("Calculating the top 5 products for product 3...");
+var top5 = (from m in Enumerable.Range(1, 100)
+            let p = predictionengine.Predict(
+               new ProductEntry()
+               {
+                   ProductID = 3,
+                   CoPurchaseProductID = (uint)m
+               })
+            orderby p.Score descending
+            select (ProductID: m, Score: p.Score)).Take(5);
+foreach (var t in top5)
+    Console.WriteLine($"  Score:{t.Score}\tProduct: {t.ProductID}");
+
+
+Console.ReadLine();
+
 
 public class Copurchase_prediction
 {
