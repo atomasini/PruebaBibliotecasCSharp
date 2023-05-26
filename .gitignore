@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/LibreriaHtmlAgilityPack/ProductRecommendation/.vs/ProductRecommendation
+/LibreriaHtmlAgilityPack/ProductRecommendation/bin/Debug/net6.0
+/LibreriaHtmlAgilityPack/ProductRecommendation/obj
