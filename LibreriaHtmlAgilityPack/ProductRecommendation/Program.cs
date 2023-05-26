@@ -10,7 +10,7 @@ MLContext mlContext = new MLContext();
 //STEP 2: Read the trained data using TextLoader by defining the schema for reading the product co-purchase dataset
 //        Do remember to replace amazon0302.txt with dataset from https://snap.stanford.edu/data/amazon0302.html
 // Especifica la ubicación real de tus datos de entrenamiento 
-string TrainingDataLocation = "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\Data\\Amazon0302.txt";
+string TrainingDataLocation = "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ProductRecommendation\\DATA\\Amazon0302.txt";
 var traindata = mlContext.Data.LoadFromTextFile(path: TrainingDataLocation,
                                                   columns: new[]
                                                   {
@@ -49,9 +49,11 @@ var prediction = predictionengine.Predict(
                          new ProductEntry()
                          {
                              ProductID = 3,
-                             CoPurchaseProductID = 63
+                             CoPurchaseProductID = 50
                          });
 
+Console.WriteLine(predictionengine.OutputSchema);
+Console.WriteLine(prediction.ToString());
 public class Copurchase_prediction
 {
     public float Score { get; set; }
