@@ -45,16 +45,14 @@ ITransformer model = est.Fit(traindata);
 //STEP 6: Create prediction engine and predict the score for Product 63 being co-purchased with Product 3.
 //The higher the score the higher the probability for this particular productID being co-purchased
 var predictionengine = mlContext.Model.CreatePredictionEngine<ProductEntry, Copurchase_prediction>(model);
-var prediction = predictionengine.Predict(
-                         new ProductEntry()
-                         {
-                             ProductID = 3,
-                             CoPurchaseProductID = 67
-                         });
+ProductEntry product = new ProductEntry()
+                                    {
+                                        ProductID = 3,
+                                        CoPurchaseProductID = 67
+                                    };
+var prediction = predictionengine.Predict(product);
 
-Console.WriteLine("\n For ProductID = 3 and  CoPurchaseProductID = 63 the predicted score is " + Math.Round(prediction.Score, 1)*100+"%");
-
-
+Console.WriteLine("\n For ProductID = "+ product.ProductID + " and  CoPurchaseProductID = "+ product .CoPurchaseProductID+ " the predicted score is " + Math.Round(prediction.Score, 1)*100+"%");
 
 
 // find the top 5 combined products for product 6
