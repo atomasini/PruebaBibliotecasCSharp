@@ -1247,19 +1247,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\54116\\.nuget\\packages\\": {}
+    "C:\\Users\\jhuma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\54116\\.nuget\\packages\\",
-      "outputPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\jhuma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\54116\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jhuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1314,7 +1314,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

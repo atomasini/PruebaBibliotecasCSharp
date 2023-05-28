@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj": {}
+    "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj": {}
   },
   "projects": {
-    "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj": {
+    "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
+        "projectUniqueName": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
         "projectName": "HelperJsonToCsv",
-        "projectPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
-        "packagesPath": "C:\\Users\\54116\\.nuget\\packages\\",
-        "outputPath": "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\obj\\",
+        "projectPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
+        "packagesPath": "C:\\Users\\jhuma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\54116\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
