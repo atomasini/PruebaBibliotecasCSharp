@@ -1,0 +1,6 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/LibreriaHtmlAgilityPack/Dominio/Entidades/PW3TiendaContext.cs
+/LibreriaHtmlAgilityPack/ProductRecommendation/Program.cs
