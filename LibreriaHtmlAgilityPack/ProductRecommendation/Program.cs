@@ -9,6 +9,21 @@ using Dominio;
 
 internal class Program
 {
+
+    public static string GetAbsolutePath(string relativeDatasetPath)
+    {
+        FileInfo _dataRoot = new FileInfo(typeof(Program).Assembly.Location);
+        string assemblyFolderPath = _dataRoot.Directory.FullName;
+
+        string fullPath = Path.Combine(assemblyFolderPath, relativeDatasetPath);
+
+        return fullPath;
+    }
+
+
+    private static string BaseDataSetRelativePath = @"../../../DATA";
+    private static string TrainingDataRelativePath = $"{BaseDataSetRelativePath}/Amazon0302.txt";
+    private static string TrainingDataLocationRelative = GetAbsolutePath(TrainingDataRelativePath);
     private static void Main(string[] args)
     {
         /*********************SQL*********/
@@ -31,8 +46,9 @@ internal class Program
         //STEP 2: Read the trained data using TextLoader by defining the schema for reading the product co-purchase dataset
         //        Do remember to replace amazon0302.txt with dataset from https://snap.stanford.edu/data/amazon0302.html
         // Especifica la ubicación real de tus datos de entrenamiento 
-        string TrainingDataLocation = "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ProductRecommendation\\Data\\Amazon0302.txt";
-        var traindata = mlContext.Data.LoadFromTextFile(path: TrainingDataLocation,
+        //string TrainingDataLocation = "C:\\web3\\Pruebas\\LibreriaHtmlAgilityPack\\ProductRecommendation\\Data\\Amazon0302.txt";
+        string TrainingDataLocation = TrainingDataLocationRelative;
+         var traindata = mlContext.Data.LoadFromTextFile(path: TrainingDataLocation,
                                                           columns: new[]
                                                           {
                                                                     new TextLoader.Column("Label", DataKind.Single, 0),
