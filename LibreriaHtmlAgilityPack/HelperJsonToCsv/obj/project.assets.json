@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jhuma\\.nuget\\packages\\": {}
+    "C:\\Users\\sullc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
+      "projectUniqueName": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
       "projectName": "HelperJsonToCsv",
-      "projectPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
-      "packagesPath": "C:\\Users\\jhuma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\obj\\",
+      "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj",
+      "packagesPath": "C:\\Users\\sullc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sullc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

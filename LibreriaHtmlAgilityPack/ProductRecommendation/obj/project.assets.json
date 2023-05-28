@@ -1279,6 +1279,16 @@
         "runtime": {
           "bin/placeholder/Dominio.dll": {}
         }
+      },
+      "HelperJsonToCsv/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HelperJsonToCsv.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelperJsonToCsv.dll": {}
+        }
       }
     }
   },
@@ -3557,12 +3567,18 @@
       "type": "project",
       "path": "../Dominio/Dominio.csproj",
       "msbuildProject": "../Dominio/Dominio.csproj"
+    },
+    "HelperJsonToCsv/1.0.0": {
+      "type": "project",
+      "path": "../HelperJsonToCsv/HelperJsonToCsv.csproj",
+      "msbuildProject": "../HelperJsonToCsv/HelperJsonToCsv.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Dominio >= 1.0.0",
       "EntityFramework >= 6.4.4",
+      "HelperJsonToCsv >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16",
@@ -3572,19 +3588,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhuma\\.nuget\\packages\\": {}
+    "C:\\Users\\sullc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\ProductRecommendation\\ProductRecommendation.csproj",
+      "projectUniqueName": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ProductRecommendation\\ProductRecommendation.csproj",
       "projectName": "ProductRecommendation",
-      "projectPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\ProductRecommendation\\ProductRecommendation.csproj",
-      "packagesPath": "C:\\Users\\jhuma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\ProductRecommendation\\obj\\",
+      "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ProductRecommendation\\ProductRecommendation.csproj",
+      "packagesPath": "C:\\Users\\sullc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\ProductRecommendation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sullc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3598,8 +3614,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\jhuma\\OneDrive\\Escritorio\\Estudios\\PW3\\Ml.Net.Grupo\\PruebaBibliotecasCSharp\\LibreriaHtmlAgilityPack\\Dominio\\Dominio.csproj"
+            "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\Dominio\\Dominio.csproj"
+            },
+            "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj": {
+              "projectPath": "C:\\Users\\sullc\\Documents\\GitHub\\IA\\LibreriaHtmlAgilityPack\\HelperJsonToCsv\\HelperJsonToCsv.csproj"
             }
           }
         }
@@ -3663,7 +3682,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

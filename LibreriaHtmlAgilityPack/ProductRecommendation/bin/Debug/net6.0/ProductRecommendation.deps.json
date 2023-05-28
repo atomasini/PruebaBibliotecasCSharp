@@ -10,6 +10,7 @@
         "dependencies": {
           "Dominio": "1.0.0",
           "EntityFramework": "6.4.4",
+          "HelperJsonToCsv": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.16",
           "Microsoft.EntityFrameworkCore.Design": "6.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
@@ -810,6 +811,11 @@
         "runtime": {
           "Dominio.dll": {}
         }
+      },
+      "HelperJsonToCsv/1.0.0": {
+        "runtime": {
+          "HelperJsonToCsv.dll": {}
+        }
       }
     }
   },
@@ -1289,6 +1295,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelperJsonToCsv/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

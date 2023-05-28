@@ -12,3 +12,17 @@ C:\Users\jhuma\OneDrive\Escritorio\Estudios\PW3\Ml.Net.Grupo\PruebaBibliotecasCS
 C:\Users\jhuma\OneDrive\Escritorio\Estudios\PW3\Ml.Net.Grupo\PruebaBibliotecasCSharp\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\ref\Dominio.dll
 C:\Users\jhuma\OneDrive\Escritorio\Estudios\PW3\Ml.Net.Grupo\PruebaBibliotecasCSharp\LibreriaHtmlAgilityPack\Dominio\bin\Debug\net6.0\Dominio.runtimeconfig.json
 C:\Users\jhuma\OneDrive\Escritorio\Estudios\PW3\Ml.Net.Grupo\PruebaBibliotecasCSharp\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.genruntimeconfig.cache
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\bin\Debug\net6.0\Dominio.deps.json
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\bin\Debug\net6.0\Dominio.runtimeconfig.json
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\bin\Debug\net6.0\Dominio.dll
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\bin\Debug\net6.0\Dominio.pdb
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.dll
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.pdb
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\Dominio.genruntimeconfig.cache
+C:\Users\sullc\Documents\GitHub\IA\LibreriaHtmlAgilityPack\Dominio\obj\Debug\net6.0\ref\Dominio.dll
