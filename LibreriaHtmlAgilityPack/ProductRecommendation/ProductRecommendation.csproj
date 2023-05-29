@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Dominio\Dominio.csproj" />
     <ProjectReference Include="..\HelperJsonToCsv\HelperJsonToCsv.csproj" />
+    <Folder Include="DATA\" />
   </ItemGroup>
 
 </Project>
