@@ -20,6 +20,13 @@ namespace ProductRecommendation
             // Obtiene la lista de productos desde el contexto y la devuelve
             return context.Productos.ToList();
         }
-       
+
+        public List<HistorialProducto> GetHistorial()
+        {
+
+            // Obtiene la lista de Historial-producto desde el contexto y la devuelve
+            return context.HistorialProductos.ToList();
+        }
+
     }
 }

@@ -20,10 +20,15 @@ internal class Program
         return fullPath;
     }
 
-
+    // Genero el path absoluto desde el relativo del proyecto leer el archivo trainig
     private static string BaseDataSetRelativePath = @"../../../DATA";
     private static string TrainingDataRelativePath = $"{BaseDataSetRelativePath}/Amazon0302.txt";
     private static string TrainingDataLocationRelative = GetAbsolutePath(TrainingDataRelativePath);
+
+    // Genero el path absoluto desde el relativo del proyecto para guardar la entrada del SQL
+    /****************Consumos.txt es el archivo que almacana las relaciones entre producto y coproductos*****************/
+    private static string DataRelativePath = $"{BaseDataSetRelativePath}/Consumos.txt";
+    private static string DataLocationRelative = GetAbsolutePath(DataRelativePath);
     private static void Main(string[] args)
     {
         /*********************SQL*********/
@@ -35,9 +40,23 @@ internal class Program
         {
             Console.WriteLine($"ID: {producto.Id}, Nombre: {producto.Nombre}");
         }
-
-        // Obtiene la lista de productos
         /*******************************/
+
+        // Obtiene la lista de productos-coproductos del historia-productos
+        /**********************************************/
+     
+        var historialProdCoprod = productosSql.GetHistorial();
+
+        // Construye la cadena de texto con las etiquetas
+      
+        var text = "ProductID\tProductID_Copurchased" + Environment.NewLine;
+        text += string.Join(Environment.NewLine, historialProdCoprod.Select(r => $"{r.IdProducto}\t{r.IdCoproducto}"));
+
+        // Guarda la cadena de texto en un archivo
+        string filePath = DataLocationRelative;
+        File.WriteAllText(filePath, text);
+
+        /**********************Fin SQL************************/
 
         //STEP 1: Create MLContext to be shared across the model creation workflow objects
         MLContext mlContext = new MLContext();
