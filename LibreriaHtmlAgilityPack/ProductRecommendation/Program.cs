@@ -29,6 +29,12 @@ internal class Program
     /****************Consumos.txt es el archivo que almacana las relaciones entre producto y coproductos*****************/
     private static string DataRelativePath = $"{BaseDataSetRelativePath}/Consumos.txt";
     private static string DataLocationRelative = GetAbsolutePath(DataRelativePath);
+
+
+
+    private static string BaseModelRelativePath = @"../../../Model";
+    private static string ModelRelativePath = $"{BaseModelRelativePath}/model.zip";
+    private static string ModelPath = GetAbsolutePath(ModelRelativePath);
     private static void Main(string[] args)
     {
         /*********************SQL*********/
@@ -98,6 +104,14 @@ internal class Program
         //Please add Amazon0302.txt dataset from https://snap.stanford.edu/data/amazon0302.html to Data folder if FileNotFoundException is thrown.
         ITransformer model = est.Fit(traindata);
 
+        //
+        mlContext.Model.Save(model, traindata.Schema, ModelPath);
+        //En esta parte termina el Trainig
+        //Apartir de aca seria usar el modelo para crear la predicion
+        //
+        //Seguinda parte o metodo que debe ejecutarse al pedir las solicitudes
+        /*model el nombre asignado para que use el createPredictions
+        model = mlContext.Model.Load(ModelPath,out var schema);*/
         //STEP 6: Create prediction engine and predict the score for Product 63 being co-purchased with Product 3.
         //The higher the score the higher the probability for this particular productID being co-purchased
         var predictionengine = mlContext.Model.CreatePredictionEngine<ProductEntry, Copurchase_prediction>(model);
@@ -125,7 +139,7 @@ internal class Program
         foreach (var t in top5)
             Console.WriteLine($"  Score:{t.Score}\tProduct: {t.ProductID}");
 
-
+     
         Console.ReadLine();
     }
 }
